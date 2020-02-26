@@ -1,0 +1,101 @@
+body{
+
+    background-color: gray;
+}
+
+header{
+    height: 200px;
+    background-color: green;
+    text-align: center;
+    border: 2px solid rgb(187, 207, 9);
+       
+}
+header h1{
+    margin: 0;
+    padding-top: 60px;
+    font-size: 70px;
+}
+
+
+
+
+nav{
+    margin-top: 15px;
+    height: 50px;
+    text-align: center;
+    color: honeydew;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.food{
+    background-color: hotpink;
+    float:left;
+    width: 33%;
+    padding-top: 10px;
+    border: 2px solid black;
+}
+.wood{
+    background-color: indigo;
+    float:left;
+    width: 34%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    border: 2px solid black;
+}
+.stone{
+    background-color: lightcoral;
+    float:left;
+    width: 32%; 
+    padding-top: 10px;
+    border: 2px solid black;
+}
+
+
+
+.game-container{
+    margin-top: 20px;
+    height: 408px;
+    display: flex;
+    justify-content: center;
+}
+.game-container img{
+    width: 430px;
+    height: 400px;
+    border: 2px solid black;
+    margin-left: 4px;
+}
+.food-factory{
+    float: left;
+}
+.wood-sawmill{
+    float: left;
+}
+.stone-quarry{
+    float: left;
+}
+
+
+
+
+.data-container{
+    height: 100px;
+    background-color: ivory;
+    border: 2px solid black;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.update-btn{
+    height: 50px;
+    background-color: rgb(140, 139, 155);
+    border: 2px solid black;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
