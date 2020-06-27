@@ -1,68 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>PlemionaGame</title>
-</head>
-<body onload="Update_resources()">
+  </head>
+  <body onload="Update_resources()">
     <header>
-            <h1>Plemiona Game</h1>
+      <h1>Plemiona Game</h1>
     </header>
-    <nav>  
-        <div class="food"></div>
-        <div class="wood"></div>
-        <div class="stone"></div>   
+    <nav>
+      <div class="food"></div>
+      <div class="wood"></div>
+      <div class="stone"></div>
     </nav>
 
-
     <div class="game-container">
-
-        <div class="food-factory">
-            <img src="pictures/windmill.png" alt="windmill">
-            <div class="data-container">
-                <div class="data-container-food"></div>
-            </div>
-            <div class="update-btn">
-                <div class="update-btn-food">
-                    <button id="updateFood">Click Me</button> 
-                </div>
-                <div class="nextlvlfood"></div>
-            </div>
+      <div class="food-factory">
+        <img src="pictures/windmill.png" alt="windmill" />
+        <div class="data-container">
+          <div class="data-container-food"></div>
         </div>
-
-        <div class="wood-sawmill">
-            <img src="pictures/sawmill.png" alt="sawmill">
-            <div class="data-container">
-                <div class="data-container-wood"></div>
-            </div>
-            <div class="update-btn">
-                <div class="update-btn-wood">
-                    <button id="updateWood">Update</button>        
-                </div>     
-                <div class="nextlvlwood"></div>   
-            </div>
-            
+        <div class="update-btn">
+          <div class="update-btn-food">
+            <button id="updateFood">Upgrade</button>
+          </div>
+          <div class="nextlvlfood"></div>
         </div>
+      </div>
 
-        <div class="stone-quarry">
-            <img src="pictures/stonequarry.png" alt="stone-quarry">
-            <div class="data-container">
-                <div class="data-container-stone"></div>
-            </div>
-            <div class="update-btn">
-                <div class="update-btn-stone">
-                    <button id="updateStone">Update</button>
-                </div>
-                <div class="nextlvlstone"></div>
-            </div>
+      <div class="wood-sawmill">
+        <img src="pictures/sawmill.png" alt="sawmill" />
+        <div class="data-container">
+          <div class="data-container-wood"></div>
         </div>
+        <div class="update-btn">
+          <div class="update-btn-wood">
+            <button id="updateWood">Upgrade</button>
+          </div>
+          <div class="nextlvlwood"></div>
+        </div>
+      </div>
+
+      <div class="stone-quarry">
+        <img src="pictures/stonequarry.png" alt="stone-quarry" />
+        <div class="data-container">
+          <div class="data-container-stone"></div>
+        </div>
+        <div class="update-btn">
+          <div class="update-btn-stone">
+            <button id="updateStone">Upgrade</button>
+          </div>
+          <div class="nextlvlstone"></div>
+        </div>
+      </div>
     </div>
 
-    
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/main.js"></script>
-    
-</body>
+  </body>
 </html>
